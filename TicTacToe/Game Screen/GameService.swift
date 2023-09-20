@@ -12,8 +12,6 @@ class GameService: ObservableObject {
     @Published var player1 = Player(gamePiece: .x, name: "Player 1")
     @Published var player2 = Player(gamePiece: .o, name: "Player 2")
     @Published var possibleMoves = Move.all
-    //This will never be used. Will be removed later.
-    @Published var movesTaken = [Int]()
     @Published var gameOver = false
     @Published var gameBoard = GameSquare.reset
     
@@ -52,9 +50,7 @@ class GameService: ObservableObject {
     
     func reset() {
         player1.isCurrent = false
-        player2.isCurrent = false
-        //Will remove later
-        movesTaken.removeAll()
+        player2.isCurrent = false 
         player1.moves.removeAll()
         player2.moves.removeAll()
         gameOver = false
