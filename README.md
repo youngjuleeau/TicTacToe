@@ -2,6 +2,10 @@
 
 Tic Tac Toe is a classic and popular game played on a 3x3 grid. The objective of the game is to be the first player to get three of their marks (either X or O) in a row, either horizontally, vertically, or diagonally.
 
+
+![AppIcon](https://github.com/youngjuleeau/TicTacToe/assets/143864813/a95f679f-6f27-4c91-95d1-c7ff442dd3f2)
+
+
 The game is typically played by two players who take turns marking empty spaces on the grid. Player 1 usually starts with the X mark, while Player 2 uses the O mark. The players continue taking turns until one of them achieves a winning combination or the entire grid is filled without a winner, resulting in a draw.
 
 Tic Tac Toe is a strategic game that requires players to think ahead and anticipate their opponent's moves. It is a great game to test one's logical thinking and spatial reasoning skills. Despite its simple rules, Tic Tac Toe can offer a surprising amount of depth and complexity.
