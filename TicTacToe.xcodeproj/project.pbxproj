@@ -15,6 +15,7 @@
 		A42D3C412AB84294009E9E02 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D3C402AB84294009E9E02 /* GameModels.swift */; };
 		A42D3C452AB95C36009E9E02 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D3C442AB95C36009E9E02 /* ViewModifiers.swift */; };
 		A42D3C492AB95DBC009E9E02 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D3C482AB95DBC009E9E02 /* GameView.swift */; };
+		A445510A2AC1165300BADA6B /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44551092AC1165300BADA6B /* YourNameView.swift */; };
 		A4A4C5DD2ABA883B00118132 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4C5DC2ABA883B00118132 /* GameService.swift */; };
 		A4A4C5DF2ABA8F7A00118132 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4C5DE2ABA8F7A00118132 /* GameSquare.swift */; };
 		A4A4C5E12ABA919100118132 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4C5E02ABA919100118132 /* SquareView.swift */; };
@@ -30,6 +31,7 @@
 		A42D3C402AB84294009E9E02 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
 		A42D3C442AB95C36009E9E02 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		A42D3C482AB95DBC009E9E02 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A44551092AC1165300BADA6B /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
 		A4A4C5DC2ABA883B00118132 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		A4A4C5DE2ABA8F7A00118132 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		A4A4C5E02ABA919100118132 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				A42D3C2F2AB83941009E9E02 /* AppEntry.swift */,
+				A44551092AC1165300BADA6B /* YourNameView.swift */,
 				A42D3C312AB83941009E9E02 /* StartView.swift */,
 				A42D3C472AB95D9C009E9E02 /* Game Screen */,
 				A42D3C432AB95C0E009E9E02 /* Utilities */,
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A445510A2AC1165300BADA6B /* YourNameView.swift in Sources */,
 				A42D3C322AB83941009E9E02 /* StartView.swift in Sources */,
 				A42D3C412AB84294009E9E02 /* GameModels.swift in Sources */,
 				A42D3C302AB83941009E9E02 /* AppEntry.swift in Sources */,
@@ -319,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QV2JLRZ23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -349,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QV2JLRZ23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
