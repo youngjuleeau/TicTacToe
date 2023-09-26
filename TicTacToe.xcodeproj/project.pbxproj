@@ -18,6 +18,7 @@
 		A445510A2AC1165300BADA6B /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44551092AC1165300BADA6B /* YourNameView.swift */; };
 		A445510E2AC160D400BADA6B /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445510D2AC160D400BADA6B /* MPConnectionManager.swift */; };
 		A44551102AC1742B00BADA6B /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445510F2AC1742B00BADA6B /* MPGameMove.swift */; };
+		A44551122AC179D800BADA6B /* MPPeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44551112AC179D800BADA6B /* MPPeersView.swift */; };
 		A4A4C5DD2ABA883B00118132 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4C5DC2ABA883B00118132 /* GameService.swift */; };
 		A4A4C5DF2ABA8F7A00118132 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4C5DE2ABA8F7A00118132 /* GameSquare.swift */; };
 		A4A4C5E12ABA919100118132 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4C5E02ABA919100118132 /* SquareView.swift */; };
@@ -37,6 +38,7 @@
 		A445510B2AC1218A00BADA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A445510D2AC160D400BADA6B /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
 		A445510F2AC1742B00BADA6B /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
+		A44551112AC179D800BADA6B /* MPPeersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPeersView.swift; sourceTree = "<group>"; };
 		A4A4C5DC2ABA883B00118132 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		A4A4C5DE2ABA8F7A00118132 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		A4A4C5E02ABA919100118132 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				A445510D2AC160D400BADA6B /* MPConnectionManager.swift */,
 				A445510F2AC1742B00BADA6B /* MPGameMove.swift */,
+				A44551112AC179D800BADA6B /* MPPeersView.swift */,
 			);
 			path = MultiPeerConnectivity;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				A42D3C302AB83941009E9E02 /* AppEntry.swift in Sources */,
 				A4A4C5DD2ABA883B00118132 /* GameService.swift in Sources */,
 				A42D3C452AB95C36009E9E02 /* ViewModifiers.swift in Sources */,
+				A44551122AC179D800BADA6B /* MPPeersView.swift in Sources */,
 				A445510E2AC160D400BADA6B /* MPConnectionManager.swift in Sources */,
 				A42D3C492AB95DBC009E9E02 /* GameView.swift in Sources */,
 				A4A4C5DF2ABA8F7A00118132 /* GameSquare.swift in Sources */,
